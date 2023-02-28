@@ -183,4 +183,120 @@ main {
   line-height: 44px;
   color: #000000;
   padding-left: 12px;
+  margin-bottom: 50px;
+}
+
+.task__new-item {
+  width: 100%;
+  padding: 17px 0px;
+  text-align: center;
+  background: #f8ca94;
+  border-radius: 10px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+  color: #353535;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.task__new-item:hover {
+  background-color: #e3973f;
+}
+.priority {
+  background: #faa136;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 10px 6px 6px 5px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  margin-top: 27px;
+}
+.priority_button {
+  background: #feffdf;
+  border-radius: 8px;
+  width: 100%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  padding: 10px 0px 1px;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+.priority_button:hover {
+  background: rgb(207, 201, 201);
+}
+.medium_priority {
+  background: #ffb760;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.low_priority {
+  background: #ffd8a9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.details {
+  background: #ffd7a7;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  max-width: 722px;
+  width: 100%;
+  max-height: 521px;
+  height: 100%;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  z-index: 5;
+  display: block;
+  flex-direction: column;
+  padding: 16px 21px;
+}
+.details__header {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  padding: 16px 0px 33px;
+}
+.details__name {
+  display: block;
+  width: 100%;
+  border-bottom: #585353 3px solid;
+  background: #ffd7a7;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #585353;
+  margin-bottom: 13px;
+}
+.details__date {
+  display: block;
+  width: 100%;
+  border-bottom: #585353 3px solid;
+  background: #ffd7a7;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #585353;
+  margin-bottom: 13px;
 }
